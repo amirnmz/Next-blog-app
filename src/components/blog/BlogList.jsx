@@ -36,7 +36,7 @@ export default async function BlogList({ posts }) {
               {/* blog author-category */}
               <div className="flex items-center  justify-between mb-4">
                 <Author {...post.author} />
-                <div className="flex items-center text-[10px] text-secondary-500">
+                <div className="flex items-center text-[10px] text-secondary-400">
                   <ClockIcon className="w-4 h-4 stroke-secondary-500 ml-1" />
                   <span className="ml-1"> خواندن:</span>
                   <span className="ml-1 leading-3">{post.readingTime}</span>

@@ -7,7 +7,7 @@ async function CommentPage() {
   return (
     <div>
       <div className="flex items-center justify-between">
-        <h1 className="text-secondary-700 mb-8 font-bold text-xl">
+        <h1 className="text-secondary-700 mb-8 font-bold text-lg">
           لیست نظرات
         </h1>
       </div>

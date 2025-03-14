@@ -28,7 +28,7 @@ function Singin() {
 
   return (
     <div>
-      <h1 className="text-xl font-bold text-secondary-500 text-center mb-6">
+      <h1 className="text-lg font-bold text-secondary-500 text-center mb-5">
         ورود
       </h1>
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-10">
