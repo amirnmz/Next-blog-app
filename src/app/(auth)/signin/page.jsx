@@ -10,8 +10,8 @@ import Link from "next/link";
 
 const schema = yup
   .object({
-    email: yup.string().email().required("ایمیل را وارد کنید"),
-    password: yup.string().required("رمز عبور را وارد کنید"),
+    email: yup.string().email().required("ایمیل خود  را وارد کنید"),
+    password: yup.string().required("رمز عبور خود را وارد کنید"),
   })
   .required();
 
